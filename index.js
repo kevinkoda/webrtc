@@ -1,6 +1,6 @@
 // index.js
-//var Hapi = require('hapi');
-//var server = new Hapi.Server()
+var node = require('node');
+var server = new node.Server()
 server.connection({
   'host': 'localhost',
   'port': 3000
